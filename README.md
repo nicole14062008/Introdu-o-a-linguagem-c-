@@ -1,4 +1,4 @@
-[24/07, 18:51] Milaaa: a)
+a)
 #include <stdio.h>
  #include <stdlib.h>           
 int main() {
@@ -110,7 +110,7 @@ int main() {
 
     return 0;
 }
-[24/07, 18:51] Milaaa: 01.#include <stdio.h>
+ 01.#include <stdio.h>
             
 int main() {
  printf("Total      =        100%%\n");
