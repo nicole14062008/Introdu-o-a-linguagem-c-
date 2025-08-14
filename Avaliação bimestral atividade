@@ -1,0 +1,128 @@
+ #include <stdio.h>
+
+int main() {
+    int opcao;
+    float num1, num2, resultado;
+
+    printf("Escolha a operacao:\n");
+    printf("1 - Adicao\n");
+    printf("2 - Subtracao\n");
+    printf("3 - Multiplicacao\n");
+    printf("4 - Divisao\n");
+    printf("5 - Resto da divisao\n");
+    printf("Digite a opcao desejada: ");
+    scanf("%d", &opcao);
+
+    printf("Digite o primeiro numero: ");
+    scanf("%f", &num1);
+    printf("Digite o segundo numero: ");
+    scanf("%f", &num2);
+
+    switch(opcao) {
+        case 1:
+            resultado = num1 + num2;
+            printf("Resultado da adicao: %.2f\n", resultado);
+            break;
+        case 2:
+            resultado = num1 - num2;
+            printf("Resultado da subtracao: %.2f\n", resultado);
+            break;
+        case 3:
+            resultado = num1 * num2;
+            printf("Resultado da multiplicacao: %.2f\n", resultado);
+            break;
+        case 4:
+            resultado = num1 / num2;
+            printf("Resultado da divisao: %.2f\n", resultado);
+            break;
+        case 5:
+            printf("Resto da divisao inteira: %d\n", (int)num1 % (int)num2);
+            break;
+        default:
+            printf("Opcao invalida!\n");
+    }
+
+    return 0;
+}
+#include<stdio.h>
+
+int main(){
+    int N, i,j;
+    int num=1;
+    printf("informe um numero inteiro positivo:");
+    scanf("%d",&N);
+    
+    for(i=1;i<=N;i++){
+        for(j=1;j<=i;j++){
+            printf("%d",num);
+            num++;
+        }
+        printf("\n",&N);
+    }
+    return 0;
+}
+ include<stdio.h>
+
+int main(){
+
+int quantidade, numero, maior;
+
+int contador=0;
+
+printf("informe a quantidade desejada:");
+
+scanf("%d", &quantidade);
+
+for(int i=0;i<quantidade;i++){
+
+printf("informe o numero%d: ",i+1);
+
+scanf("%d",&numero);
+
+if(i==0||numero maior){
+
+maior numero:
+
+corntador-1:
+
+} else if (numero==maior){
+
+contador++;
+
+}
+
+printf("\n---Resultado---\n");
+
+printf("O maior numero é:%d\n",maior):
+
+printf("este numero foi lido 96d vezes.\n",contador);
+
+return 0;}
+ #include <stdio.h>
+
+int main(void) {
+    int velocidade;
+
+    printf("Com que velocidade (km/h) você costuma dirigir? ");
+    scanf("%d", &velocidade);
+
+    if (velocidade > 75) {
+        printf("Guarda: Você está dirigindo muito rápido!\n");
+    } else {
+        if (velocidade > 65) {
+            printf("Guarda: Você ultrapassou o limite de velocidade.\n");
+        } else {
+            if (velocidade == 55) {
+                printf("Guarda: Velocidade permitida — exatamente 55 km/h.\n");
+            } else {
+                if (velocidade > 45) {
+                    printf("Guarda: Dirigindo com cuidado, mas ainda acima do ideal.\n");
+                } else {
+                    printf("Guarda: Você está bem dentro dos limites — segurança em primeiro lugar!\n");
+                }
+            }
+        }
+    }
+
+    return 0;
+}
